@@ -7,13 +7,11 @@ The agent evaluates job applications, matches skills, and routes candidates to t
 ⚠️ Escalate to recruiter
 ❌ Reject application
 
-![alt text](image-1.png)
-
-✨ Features
+### ✨ Features
 
 🧩 Graph-based Workflow – modular and interpretable flow using LangGraph
 
-### 📊 Experience Categorization – classifies applications as Entry-level, Mid-level, Senior-level
+📊 Experience Categorization – classifies applications as Entry-level, Mid-level, Senior-level
 
 🛠 Skill Matching – verifies candidate fit for a Python Developer role
 
@@ -22,3 +20,5 @@ The agent evaluates job applications, matches skills, and routes candidates to t
 🎨 Graph Visualization – view the workflow in Mermaid or Graphviz
 
 🔑 Groq-powered LLM – fast inference using Groq API
+
+![alt text](image-1.png)
