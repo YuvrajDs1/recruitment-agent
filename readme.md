@@ -1,32 +1,24 @@
-### Recruiter Workflow Agent
+## 🤖 Recruiter Workflow Agent
 
-This project demonstrates how to build an AI-powered recruitment workflow using LangGraph, LangChain, and Groq LLMs.
+An AI-powered recruitment assistant that automates the candidate screening workflow using LangGraph, LangChain, and Groq LLMs.
 
-The agent automatically:
+The agent evaluates job applications, matches skills, and routes candidates to the right stage:
+✅ Schedule HR interview
+⚠️ Escalate to recruiter
+❌ Reject application
 
-Categorizes candidate applications into Entry-level, Mid-level, or Senior-level
-
-Matches skills against a Python Developer job description
-
-Routes candidates to the correct outcome:
-
-Schedule HR Interview
-
-Escalate to Recruiter
-
-Reject Application
-
-The workflow is represented as a graph, making the candidate evaluation process transparent and easy to modify.
 ![alt text](image-1.png)
 
-#### 🚀 Features
+✨ Features
 
-Stateful Graph: Each step in the pipeline enriches the candidate’s application state.
+🧩 Graph-based Workflow – modular and interpretable flow using LangGraph
 
-Experience Categorization: Uses LLMs to determine seniority.
+### 📊 Experience Categorization – classifies applications as Entry-level, Mid-level, Senior-level
 
-Skill Matching: Matches candidate skills to the job requirements.
+🛠 Skill Matching – verifies candidate fit for a Python Developer role
 
-Automated Decision Routing: Candidates are either shortlisted, escalated, or rejected.
+⚡ Automated Routing – decides whether to shortlist, escalate, or reject
 
-Graph Visualization: View the workflow structure using Mermaid or Graphviz.
+🎨 Graph Visualization – view the workflow in Mermaid or Graphviz
+
+🔑 Groq-powered LLM – fast inference using Groq API
