@@ -3,9 +3,12 @@
 An AI-powered recruitment assistant that automates the candidate screening workflow using LangGraph, LangChain, and Groq LLMs.
 
 The agent evaluates job applications, matches skills, and routes candidates to the right stage:
-✅ Schedule HR interview
-⚠️ Escalate to recruiter
-❌ Reject application
+
+- ✅ Schedule HR interview
+
+- ⚠️ Escalate to recruiter
+
+- ❌ Reject application
 
 ### ✨ Features
 
