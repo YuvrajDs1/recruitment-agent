@@ -23,5 +23,5 @@ The agent evaluates job applications, matches skills, and routes candidates to t
 🎨 Graph Visualization – view the workflow in Mermaid or Graphviz
 
 🔑 Groq-powered LLM – fast inference using Groq API
-
+----
 ![alt text](image-1.png)
